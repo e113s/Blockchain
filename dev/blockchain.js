@@ -2,7 +2,6 @@ const sha256 = require('sha256');
 const currentNodeUrl = process.argv[3];
 const uuid = require('uuid/v1');
 
-
 /**
  * Constructor del la cadena de bloques
  */

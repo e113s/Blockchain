@@ -9,7 +9,6 @@ const rp = require('request-promise');
 const nodeAddress = uuid().split('-').join('');
 const bitcoin = new blockchain();
 
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false}));
  
